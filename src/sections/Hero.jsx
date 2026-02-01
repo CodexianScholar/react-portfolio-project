@@ -131,7 +131,7 @@ export const Hero = () => {
               <div className=" absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/Urban winter portrait with intense gaze.png"
+                  src="/profile-image.png"
                   alt="Prince OHara"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
