@@ -116,7 +116,7 @@ export const Hero = () => {
               ].map((social, index) => (
                 <a
                   key={index}
-                  href={social.herf}
+                  href={social.href}
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
                   {<social.icon className="w-5 h-5" />}
@@ -162,14 +162,16 @@ export const Hero = () => {
             <div className="flex w-max animate-marquee">
               {[...skills, ...skills].map((skill, index) => (
                 <div key={index} className="flex-shrink-0 px-8 py-4 ">
-                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">{skill}</span>
+                  <span className="text-xl font-semibold text-muted-foreground/50 hover:text-muted-foreground transition-colors">
+                    {skill}
+                  </span>
                 </div>
               ))}
             </div>
           </div>
         </div>
       </div>
-       <div
+      <div
         className="absolute bottom-8 left-1/2 -translate-x-1/2 
       animate-fade-in animation-delay-800"
       >
